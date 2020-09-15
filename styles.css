@@ -1,0 +1,228 @@
+
+p {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+
+/* Headings */
+
+.big-heading {
+  color: #fff;
+  padding-top: 4%;
+  font-weight: 900;
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+ 
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+
+
+/* Sections */
+
+.white-section {
+  background-color: #fff;
+  text-align: center;
+}
+
+.coloured-section {
+  background-color: #ff4c68;
+  color: #fff;
+  text-align: center;
+}
+
+/* Title */
+
+#title {
+  text-align: left;
+}
+
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+
+
+/* Navigation Bar */
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.navbar {
+  padding: 0.5% 0 7%;
+}
+
+.nav-item {
+  margin: 0 22px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.download-btn {
+  margin: 30px 10px 30px 0;
+}
+
+
+
+
+/* Features */
+
+#features {
+  width: 85%;
+  margin: auto;
+  padding-top: 7%;
+  position: relative;
+}
+
+.feature-heading {
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.feature-body {
+  color: #8f8f8f;
+}
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 7%;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+.feature-heart{
+  padding: 0 5%;
+}
+
+.padding {
+  padding: 0 8% 9%;
+}
+
+
+
+
+/* Testimonials */
+
+#testimonials {
+  padding: 7% 15%;
+  background-color: #ef8172;
+}
+
+.testimonial-image {
+  width: 8%;
+  border-radius: 100%;
+  margin-right: 2%;
+}
+
+.testimonial-text {
+  padding-bottom: 2%;
+  font-size: 3rem;
+  width: 80%;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.testimonial-location {
+  color: #fff;
+}
+
+
+
+
+/* Press */
+
+#press {
+  padding: 0 10% 7%;
+  background-color: #ef8172;
+}
+
+.press-image {
+  width: 20%;
+}
+
+
+
+
+/* Pricing */
+
+#pricing {
+  padding: 5% 15%;
+}
+
+.price-heading {
+  color: #000;
+}
+
+.price-table {
+  font-weight: 500;
+  color: #000;
+}
+
+.card {
+  margin: 5% 0;
+}
+
+.price {
+  padding-bottom: 3%;
+}
+
+
+
+
+/* Call To Action */
+
+#cta {
+  padding: 5%;
+  line-height: 7;
+}
+
+.cta-heading {
+  font-size: 2.5rem;
+  width: 50%;
+  margin: auto;
+}
+
+#footer {
+  padding: 5% 0 3%;
+}
+
+.sm-icon {
+  padding: 1%;
+}
+
+
+
+
+/* Media Break Points */
+
+@media (max-width: 1040px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
